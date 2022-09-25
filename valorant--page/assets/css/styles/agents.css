@@ -1,55 +1,195 @@
+main {
+    background-image: url("/valorant--page/assets/img/Agents/Background.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: var(--cor-primaria);
+    
+}
+
 .agentes {
-    margin: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
-    padding-bottom: 8.5rem;
+    padding: 7rem 2rem 5.5rem 2rem;
+    gap: 1rem;
 }
 
 .agentes__card {
-    margin: 5.5rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .agentes__card:hover {
-    width: 19.75rem;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .agentes__card--img {
-    background-position: top;
-    background-size: cover;
+    width: 260px;
+    height: 526px;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 16.7rem;
-    height: 35rem;
+}
+
+.card__jett,
+.card__sage {
+    background-color: var(--cor-secundaria);
+}
+
+.card__phoenix,
+.card__sova {
+    background-color: var(--branco);
+}
+
+.card__phoenix:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.card__jett:hover {
+    background-color: #D9D9D9;
+}
+
+.card__sova:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.card__sage:hover {
+    background-color: #D9D9D9;
 }
 
 
 .agentes__card--img-phoenix {
-    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/Phoenix.png");
+    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/player.png");
 }
 
 .agentes__card--img-jett {
-    background-image: url("/valorant--page/assets/img/Agents/jet-card/Jett.png");
+    background-image: url("/valorant--page/assets/img/Agents/jet-card/player.png");
 }
 
 .agentes__card--img-sova {
-    background-image: url("/valorant--page/assets/img/Agents/sova-card/Sova.png");
+    background-image: url("/valorant--page/assets/img/Agents/sova-card/player\ \(1\).png");
 }
 
 .agentes__card--img-sage {
-    background-image: url("/valorant--page/assets/img/Agents/sage-card/sage.png");
+    background-image: url("/valorant--page/assets/img/Agents/sage-card/player.png");
+}
+
+.agentes__card--skills-a {
+    background-color: var(--branco);
+    border: 1px solid var(--cor-secundaria);
+    padding: 0.7rem 0;
+}
+
+.agentes__card--skills-b {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--branco);
+    padding: 0.7rem 0;
+}
+
+.agentes__card--skills-a:hover {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--branco);
+}
+
+.agentes__card--skills-b:hover {
+    background-color: var(--branco);
+    border: 1px solid var(--cor-secundaria);
 }
 
 .agentes__skill {
-    padding: 0.2rem;
-    width: 2rem;
-    height: 2rem;
+    padding: 1.3rem ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.agentes__card--skills {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--cor-secundaria);
-    border: 1px solid var(--branco);
-    padding: 0.5rem;
-    width: 14.4rem;
-    margin-left: 1.2rem;
+.phoenix__skills {
+    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/Abilities.png");
+}
+
+.phoenix__skills:hover {
+    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/Abilities\ 2.png");
+}
+
+.jett__skills {
+    background-image: url("/valorant--page/assets/img/Agents/jet-card/Abilities.png");
+}
+
+.sova__skills {
+    background-image: url("/valorant--page/assets/img/Agents/sova-card/Abilities.png");
+}
+
+.sova__skills:hover {
+    background-image: url("/valorant--page/assets/img/Agents/sova-card/Abilities\ 2.png");
+}
+
+.sage__skills {
+    background-image: url("/valorant--page/assets/img/Agents/sage-card/Abilities.png");
+}
+
+@media screen and (max-width: 1024px) {
+
+    .agentes {
+        flex-wrap: wrap;
+    }
+
+    .agentes__card {
+        margin-top: 5rem;
+    }
+
+    .agentes__card--img {
+        width: 155px;
+        height: 316px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    main {
+        background-image: url("/valorant--page/assets/img/Agents/background\ 2.png");
+    }
+
+    .agentes {
+        padding: 10rem 3rem 8rem 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .agentes__card--img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16vw;
+        height: 46vh;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .agentes__card--img {
+        width: 250px;
+        height: 526px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    body {
+        background-repeat: repeat;
+    }
+
+    .agentes {
+        flex-wrap: wrap;
+    }
+
+    .agentes__card {
+        margin-top: 6rem;
+        margin-bottom: 5rem
+    }
+
+    .agentes__card--img {
+        width: 340px;
+        height: 705px;
+    }
+
 }
