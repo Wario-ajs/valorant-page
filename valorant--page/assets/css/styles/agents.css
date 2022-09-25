@@ -1,0 +1,55 @@
+.agentes {
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8.5rem;
+}
+
+.agentes__card {
+    margin: 5.5rem 1rem 1rem 1rem;
+}
+
+.agentes__card:hover {
+    width: 19.75rem;
+}
+
+.agentes__card--img {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16.7rem;
+    height: 35rem;
+}
+
+
+.agentes__card--img-phoenix {
+    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/Phoenix.png");
+}
+
+.agentes__card--img-jett {
+    background-image: url("/valorant--page/assets/img/Agents/jet-card/Jett.png");
+}
+
+.agentes__card--img-sova {
+    background-image: url("/valorant--page/assets/img/Agents/sova-card/Sova.png");
+}
+
+.agentes__card--img-sage {
+    background-image: url("/valorant--page/assets/img/Agents/sage-card/sage.png");
+}
+
+.agentes__skill {
+    padding: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.agentes__card--skills {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--branco);
+    padding: 0.5rem;
+    width: 14.4rem;
+    margin-left: 1.2rem;
+}

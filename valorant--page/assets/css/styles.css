@@ -18,6 +18,11 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: var(--preto);
+    background-image: url("/valorant--page/assets/img/Agents/Background.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: var(--cor-primaria);
 }
 
 /*=========Cabeçalho=========*/
@@ -26,14 +31,13 @@ body {
     background-color: var(--cor-secundaria);
     color: var(--branco);
     display: flex;
-    padding: 1rem;
     align-items: center;
    
 }
 
 .cabecalho__logo {
-    padding:  1rem 3.5rem 1rem 1rem;
-    margin: 0.2rem 1rem 0.2rem 0.2rem;
+    padding:  0 3.5rem 0 1rem;
+    margin: 1rem 1rem 1rem 0.2rem;
     border-right: 2px solid var(--branco);
 }
 
@@ -96,4 +100,11 @@ body {
     color: var(--branco);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/*=========Cabeçalho=========*/
+
+.rodape {
+    padding: 2rem;
+    background-color: var(--cor-secundaria);
 }
