@@ -1,0 +1,101 @@
+@import url("styles/agents.css");
+@import url("styles/sova.css");
+@import url("styles/phoenix.css");
+@import url("styles/sage.css");
+@import url("styles/jett.css");
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --fonte-secundaria: 'Druk Wide Bold';
+    --branco: #FFF;
+    --preto: #000;
+    --cor-primaria: #FF4656;
+    --cor-secundaria: #1F2326;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+/*=========Cabeçalho=========*/
+
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    color: var(--branco);
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+   
+}
+
+.cabecalho__logo {
+    padding:  1rem 3.5rem 1rem 1rem;
+    margin: 0.2rem 1rem 0.2rem 0.2rem;
+    border-right: 2px solid var(--branco);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 1.2rem 0 2rem;
+    cursor: pointer;
+}
+
+
+.navbar__botao2--actv{
+    display: none;
+}
+
+.navbar__titulo:hover{
+    border-bottom: 0.5px solid var(--branco);
+}
+
+.navbar__botao {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.navbar__botao2{
+    display: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.fechado{
+    display: none;
+}
+
+.aberto{
+    display: flex;
+}
+
+.navbar__lista {
+    display: none;
+    align-items: center;
+    gap: 1.7rem;
+    margin-left: 1rem;
+}
+
+.navbar__lista--actv{
+    display: flex;
+}
+
+.navbar__lista--item {
+
+}
+
+.navbar__lista--link {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+}
