@@ -18,6 +18,10 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: var(--preto);
+    background-image: url('/valorant--page/assets/img/Agents/Background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
 }
 
 /*=========Cabeçalho=========*/
@@ -98,4 +102,16 @@ body {
     color: var(--branco);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/*---------Corpo da Página---------*/
+
+
+
+
+/*---------Rodape---------*/
+
+.rodape{
+    padding: 2rem;
+    background-color: var(--cor-secundaria);
 }

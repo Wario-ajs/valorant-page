@@ -1,0 +1,10 @@
+.agentes{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 100vh;
+}
+
+.agentes__card--img{
+    width: 320px;
+    height: 612.5px;
+}
