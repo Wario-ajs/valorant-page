@@ -21,12 +21,6 @@ body {
     background-color: var(--cor-secundaria);
 }
 
-@media screen and (max-width: 1024px) {
-    body {
-        background-repeat: repeat-y;
-    }
-}
-
 /*=========Cabeçalho=========*/
 
 .cabecalho {
@@ -90,10 +84,6 @@ body {
 
 .navbar__lista-actv {
     display: flex;
-}
-
-.navbar__lista--item {
-    
 }
 
 .navbar__lista--link {
