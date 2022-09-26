@@ -1,10 +1,9 @@
-main {
-    background-image: url("valorant-page/valorant--page/assets/img/Agents/Background.png");
+.main__agentes {
+    background-image: url("/valorant--page/assets/img/Agents/background\ 2.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     background-color: var(--cor-primaria);
-    
 }
 
 .agentes {
