@@ -1,8 +1,8 @@
-@import url("styles/agents.css");
-@import url("styles/sova.css");
-@import url("styles/phoenix.css");
-@import url("styles/sage.css");
-@import url("styles/jett.css");
+@import url("agents.css");
+@import url("sova.css");
+@import url("phoenix.css");
+@import url("sage.css");
+@import url("jett.css");
 
 :root {
     --fonte-principal: 'Montserrat';

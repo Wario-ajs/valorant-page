@@ -1,5 +1,5 @@
 .main__agentes {
-    background-image: url("/valorant--page/assets/img/Agents/background\ 2.png");
+    background-image:url("../img/Agents/background\ 2.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -60,19 +60,19 @@
 
 
 .agentes__card--img-phoenix {
-    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/player.png");
+    background-image: url("../img/Agents/phoenix-card/player\ \(1\).png");
 }
 
 .agentes__card--img-jett {
-    background-image: url("/valorant--page/assets/img/Agents/jet-card/player.png");
+    background-image: url("../img/Agents/jet-card/player.png");
 }
 
 .agentes__card--img-sova {
-    background-image: url("/valorant--page/assets/img/Agents/sova-card/player\ \(1\).png");
+    background-image: url("../img/Agents/sova-card/player\ \(1\).png");
 }
 
 .agentes__card--img-sage {
-    background-image: url("/valorant--page/assets/img/Agents/sage-card/player.png");
+    background-image: url("../img/Agents/sage-card/player.png");
 }
 
 .agentes__card--skills-a {
@@ -105,27 +105,27 @@
 }
 
 .phoenix__skills {
-    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/Abilities.png");
+    background-image: url("../img/Agents/phoenix-card/Abilities.png");
 }
 
 .phoenix__skills:hover {
-    background-image: url("/valorant--page/assets/img/Agents/phoenix-card/Abilities\ 2.png");
+    background-image: url("../img/Agents/phoenix-card/Abilities\ 2.png");
 }
 
 .jett__skills {
-    background-image: url("/valorant--page/assets/img/Agents/jet-card/Abilities.png");
+    background-image: url("../img/Agents/jet-card/Abilities.png");
 }
 
 .sova__skills {
-    background-image: url("/valorant--page/assets/img/Agents/sova-card/Abilities.png");
+    background-image: url("../img/Agents/sova-card/Abilities.png");
 }
 
 .sova__skills:hover {
-    background-image: url("/valorant--page/assets/img/Agents/sova-card/Abilities\ 2.png");
+    background-image: url("../img/Agents/sova-card/Abilities\ 2.png");
 }
 
 .sage__skills {
-    background-image: url("/valorant--page/assets/img/Agents/sage-card/Abilities.png");
+    background-image: url("../img/Agents/sage-card/Abilities.png");
 }
 
 @media screen and (max-width: 1024px) {
@@ -146,7 +146,7 @@
 
 @media screen and (min-width: 1025px) {
     main {
-        background-image: url("/valorant--page/assets/img/Agents/background\ 2.png");
+        background-image../assets/img/Agents/background\ 2.png");
     }
 
     .agentes {
