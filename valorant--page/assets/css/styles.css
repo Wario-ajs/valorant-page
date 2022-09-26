@@ -11,6 +11,7 @@
     --preto: #000;
     --cor-primaria: #FF4656;
     --cor-secundaria: #1F2326;
+    --cor-terciaria: #ACACAC;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
     color: var(--branco);
     display: flex;
     align-items: center;
-   padding: 0.5rem;
 }
 
 .cabecalho__logo {
@@ -49,8 +49,9 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     padding-bottom: 0.2rem;
+    color: var(--branco);
+    text-decoration: none;
 }
-
 
 .navbar__titulo:hover {
     border-bottom: 0.5px solid var(--branco);
@@ -94,9 +95,153 @@ body {
     text-transform: uppercase;
 }
 
-/*=========Cabeçalho=========*/
+/*=========rodape=========*/
 
 .rodape {
-    padding: 2.5rem;
+    padding: 3rem;
     background-color: var(--cor-secundaria);
+}
+
+/*=========Agentes Page=========*/
+
+.agente {
+    background-image:url("../img/jett/bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: var(--cor-primaria);
+    padding: 0 0 1rem 0;
+}
+
+.agente__bloco {
+    display: grid;
+    grid-template-columns: 69% 31%;
+    grid-template-rows: auto auto auto;
+    margin-bottom: 1rem;
+}
+
+.pagina__titulo {
+    display: inline-block;
+    font-family: 'Druk Wide Bold';
+    font-size: 8vw;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--branco);
+    justify-self: center;
+}
+
+.agente__conteudo {
+    background-color: var(--branco);
+    width: 51vw;
+    height: 54.4vh;
+    padding: 1rem;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.agente__bloco--titulo {
+    display: inline-block;
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0 1rem;
+}
+
+.agente__bloco--lore {
+    font-family: var(--fonte-principal);
+    line-height: 120%;
+    margin: 1rem;
+    font-size: 13px;
+}
+
+.agente__bloco--container {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.skill__video {
+    position: absolute;
+    left: 4.5vw;
+    width: 400px;
+    height: 230px;
+}
+
+.agente__atributos {
+    margin-left: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.agente__atributos--titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    margin: 1.1rem 0;
+}
+
+.atributos__lista {
+    font-family: var(--fonte-secundaria);
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.atributos__lista--items {
+    display: flex;
+    gap: 0.5em;
+}
+
+.atributo__atributo {
+    color: var(--cor-terciaria);
+}
+
+.agente__abilidades {
+    width: 53.1vw;
+    background-color: var(--cor-secundaria);
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.agente__abilidades--lista {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--branco);
+}
+
+.agentes__abilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+}
+
+/*.habilidade__img--container {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.abilidade__icone {
+    height: 4vw;
+    width: 4vw;
+}
+
+.abilidade__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 12px;
+    margin: 1rem 0 0.5rem;
+}
+
+.abilidade__desc {
+    font-size: 9px;
+    color: rgb(209, 209, 209);
+    line-height: 140%;
 }
