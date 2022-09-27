@@ -146,7 +146,7 @@
 
 @media screen and (min-width: 1025px) {
     main {
-        background-image../assets/img/Agents/background\ 2.png");
+        background-image:("../assets/img/Agents/background\ 2.png");
     }
 
     .agentes {
