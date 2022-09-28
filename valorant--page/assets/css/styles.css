@@ -274,8 +274,12 @@ body {
 }
 
 @media screen and (min-width: 1920px) {
+    .agente {
+        background-size: contain;
+    }
+
     .agente__bloco {
-        margin-bottom: 6rem;
+        margin-bottom: 4.2rem;
     }
     
     .pagina__titulo {
@@ -309,6 +313,10 @@ body {
         font-size: 1.6rem;
         margin: 1.1rem 0;
     }
+
+    .agente__abilidades {
+        width: 52.79vw;
+    }
     
     .atributos__lista {
         font-size: 1rem;
@@ -325,5 +333,96 @@ body {
     
     .abilidade__desc {
         font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .agente {
+        background-size: cover;
+    }
+
+    .agente__bloco {
+        margin-bottom: 1rem;
+        grid-template-columns: 52% 10% auto;
+    }
+    
+    .agente__conteudo {
+        width: 45vw;
+        height: 50vh;
+        padding: 1rem;
+        justify-self: end;
+        margin-bottom: 5rem;
+    }
+    
+    .agente__bloco--titulo {
+        font-size: 1.5rem;
+        margin: 0.7rem 0 0 1rem;
+    }
+    
+    .agente__bloco--lore {
+        line-height: 125%;
+        margin: 1rem 1rem;
+        font-size: 0.75rem;
+    }
+
+    .skill__video {
+        top: 68vh;
+        left: 4.4vw;
+        width: 57.5vw;
+        height: 43vh;
+        display: none;
+    }
+
+    .agente__atributos--titulo {
+        font-size: 1.1rem;
+        margin: 1.1rem 0;
+    }
+
+    .atributos__lista {
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 0.7rem;
+        gap: 1.5rem;
+    }
+
+    .agente__atributos {
+        margin-left: 1rem;
+    }
+
+    .agente__abilidades {
+        grid-column: 2;
+        grid-row: 2;
+        justify-self: start;
+    }
+
+    .agente__abilidades {
+        background-color: var(--cor-secundaria);
+        width: 10vw;
+        height: 53.7vh;
+    }
+    
+    .agente__abilidades--lista {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        align-items: center;
+        color: var(--branco);
+
+    }
+    
+    .agentes__abilidade {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.5rem;
+    }
+
+    .abilidade__titulo {
+        font-size: 0.6rem;
+    }
+    
+    .abilidade__desc {
+        display: none;
     }
 }
