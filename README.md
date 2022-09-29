@@ -5,6 +5,7 @@ Criação do projeto de web page dos agentes de valorant, utilizando HTML/CSS e 
 ###Deploy: [Link do projeto no Vercel](https://valorant-page-31qa.vercel.app/)
 
 <img src="valorant--page/assets/img/valorant-cover.png">
+<img src="valorant--page/assets/img/valorant-cover2.png">
 
 ## Guia de estilos
 
