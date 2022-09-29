@@ -14,7 +14,8 @@ A estilização usada no projeto foi adaptada do design criado por [Dmitry Kiias
 
 ## Fonte
 
-```montserrat:
+```
+montserrat:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
