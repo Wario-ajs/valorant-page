@@ -39,7 +39,7 @@ body {
 }
 #preloader .inner {
     position: absolute;
-    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+    top: 50%; /* centralizar a parte interna do preload */
     left: 50%;
     transform: translate(-50%, -50%);  
 }
@@ -183,7 +183,7 @@ body {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: auto auto auto;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .pagina__titulo {
@@ -332,6 +332,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 12px;
     margin: 1rem 0 0.5rem;
+    cursor: pointer;
 }
 
 .habilidade__desc {
@@ -465,7 +466,7 @@ body {
     }
 
     .agente__bloco {
-        margin-bottom: 4.2rem;
+        margin-bottom: 0.6rem;
     }
     
     .pagina__titulo {
@@ -474,7 +475,7 @@ body {
     
     .agente__conteudo {
         width: 51vw;
-        height: 30vw;
+        height: 30.08vw;
         padding: 1rem;
     }
     
@@ -490,7 +491,7 @@ body {
     }
 
     .skill__video {
-        top: 28.9vw;
+        top: 29vw;
         left: 4.4vw;
         width: 28.1vw;
         height: 15.5vw;
@@ -501,11 +502,6 @@ body {
         margin: 1.1rem 0;
     }
 
-    .agente__habilidades {
-        width: 52.79vw;
-        margin-bottom: 0.9rem;
-    }
-    
     .atributos__lista {
         font-size: 0.9rem;
         gap: 1.7rem;
@@ -513,6 +509,11 @@ body {
 
     .agente__atributos {
         margin-left: 25.5vw;
+    }
+
+    .agente__habilidades {
+        width: 52.79vw;
+        margin-bottom: 8rem;
     }
 
     .habilidade__titulo {
