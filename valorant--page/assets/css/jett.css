@@ -7,3 +7,23 @@
     right: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .jett__profile {
+        width: 43vw;
+        height: 81.8vh;
+    }
+}
+
+@media screen and (min-width: 1629px) {
+    .jett__profile {
+        width: 41vw;
+        height: 105.8vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .jett__profile {
+        width: 41vw;
+        height: 58.68vw;
+    }
+}
