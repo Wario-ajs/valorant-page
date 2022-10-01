@@ -1,0 +1,28 @@
+.phoenix__profile {
+    width: 45vw;
+    height: 63.35vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .phoenix__profile {
+        width: 44vw;
+        height: 63vw;
+    }
+}
+
+@media screen and (min-width: 1629px) {
+    .phoenix__profile {
+        width: 43vw;
+        height: 58.2vw;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .phoenix__profile {
+        width: 43vw;
+        height: 61.18vw;
+    }
+}
