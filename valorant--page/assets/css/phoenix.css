@@ -1,3 +1,36 @@
+
+.habilidade__phoenix--img1 {
+    background-image: url("../img/phoenix/skill-1.svg");
+}
+
+.habilidade__phoenix--img2 {
+    background-image: url("../img/phoenix/skill-2.svg");
+}
+
+.habilidade__phoenix--img3 {
+    background-image: url("../img/phoenix/skill-3.svg");
+}
+
+.habilidade__phoenix--img4 {
+    background-image: url("../img/phoenix/skill-4.svg");
+}
+
+.habilidade__phoenix--img1:hover {
+    background-image: url("../img/phoenix/skill-1-active.svg");
+}
+
+.habilidade__phoenix--img2:hover {
+    background-image: url("../img/phoenix/skill-2-active.svg");
+}
+
+.habilidade__phoenix--img3:hover {
+    background-image: url("../img/phoenix/skill-3-active.svg");
+}
+
+.habilidade__phoenix--img4:hover {
+    background-image: url("../img/phoenix/skill-4-active.svg");
+}
+
 .phoenix__profile {
     width: 45vw;
     height: 63.35vw;

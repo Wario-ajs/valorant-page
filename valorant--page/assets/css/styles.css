@@ -296,37 +296,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.habilidade__img1 {
-    background-image: url("../img/jett/skill-1.svg");
-}
 
-.habilidade__img2 {
-    background-image: url("../img/jett/skill-2.svg");
-}
-
-.habilidade__img3 {
-    background-image: url("../img/jett/skill-3.svg");
-}
-
-.habilidade__img4 {
-    background-image: url("../img/jett/skill-4.svg");
-}
-
-.habilidade__img1:hover {
-    background-image: url("../img/jett/skill-1-active.svg");
-}
-
-.habilidade__img2:hover {
-    background-image: url("../img/jett/skill-2-active.svg");
-}
-
-.habilidade__img3:hover {
-    background-image: url("../img/jett/skill-3-active.svg");
-}
-
-.habilidade__img4:hover {
-    background-image: url("../img/jett/skill-4-active.svg");
-}
 
 .habilidade__titulo {
     font-family: var(--fonte-secundaria);
