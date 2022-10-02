@@ -272,6 +272,7 @@ body {
     background-color: var(--cor-secundaria);
     width: 54.23vw;
     justify-self: center;
+    padding: 1rem;
 }
 
 .agentes__habilidades--lista {
@@ -284,6 +285,8 @@ body {
     padding: 0.25rem;
     text-align: center;
     color: var(--branco);
+    align-items: center;
+    justify-content: center;
 }¨
 
 .agente__habilidade {
@@ -301,6 +304,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
+    display: inline-block;
 }
 
 .habilidade1 {
