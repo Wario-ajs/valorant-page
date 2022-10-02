@@ -1,5 +1,12 @@
+#phoenix__conteudo {
+    height: 30.4vw;
+}
 
-.habilidade__phoenix--img1 {
+#phoenix__habilidade {
+    margin-bottom: 5rem;
+}
+
+.habilidade__phoenix--img3 {
     background-image: url("../img/phoenix/skill-1.svg");
 }
 
@@ -7,7 +14,7 @@
     background-image: url("../img/phoenix/skill-2.svg");
 }
 
-.habilidade__phoenix--img3 {
+.habilidade__phoenix--img1 {
     background-image: url("../img/phoenix/skill-3.svg");
 }
 
@@ -15,7 +22,7 @@
     background-image: url("../img/phoenix/skill-4.svg");
 }
 
-.habilidade__phoenix--img1:hover {
+.habilidade__phoenix--img3:hover {
     background-image: url("../img/phoenix/skill-1-active.svg");
 }
 
@@ -23,7 +30,7 @@
     background-image: url("../img/phoenix/skill-2-active.svg");
 }
 
-.habilidade__phoenix--img3:hover {
+.habilidade__phoenix--img1:hover {
     background-image: url("../img/phoenix/skill-3-active.svg");
 }
 
@@ -33,7 +40,7 @@
 
 .phoenix__profile {
     width: 45vw;
-    height: 63.35vw;
+    height: 63.38vw;
     position: absolute;
     top: 0;
     right: 0;
@@ -54,8 +61,27 @@
 }
 
 @media screen and (min-width: 1920px) {
+    #phoenix__titulo {
+        font-size: 7.55vw;
+    }
+
+    #phoenix__conteudo {
+        height: 30.1vw;
+    }
+
+    #phoenix__video {
+        top: 27.4vw;
+    }
+
+    #phoenix__atributos--titulo  {
+        margin-top: 2rem;
+    }
+
+    #phoenix__habilidade {
+        margin-bottom: 8.9rem;
+    }
     .phoenix__profile {
         width: 43vw;
-        height: 61.18vw;
+        height: 60.51vw;
     }
 }
