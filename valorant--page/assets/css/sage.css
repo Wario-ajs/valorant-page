@@ -1,0 +1,60 @@
+.habilidade__sage--img1 {
+    background-image: url("../img/sage/skill-1.svg");
+}
+
+.habilidade__sage--img2 {
+    background-image: url("../img/sage/skill-2.svg");
+}
+
+.habilidade__sage--img3 {
+    background-image: url("../img/sage/skill-3.svg");
+}
+
+.habilidade__sage--img4 {
+    background-image: url("../img/sage/skill-4.svg");
+}
+
+.habilidade__sage--img1:hover {
+    background-image: url("../img/sage/skill-1-active.svg");
+}
+
+.habilidade__sage--img2:hover {
+    background-image: url("../img/sage/skill-2-active.svg");
+}
+
+.habilidade__sage--img3:hover {
+    background-image: url("../img/sage/skill-3-active.svg");
+}
+
+.habilidade__sage--img4:hover {
+    background-image: url("../img/sage/skill-4-active.svg");
+}
+
+.sage__profile {
+    width: 47vw;
+    height: 64.25vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .sage__profile {
+        width: 44vw;
+        height: 63vw;
+    }
+}
+
+@media screen and (min-width: 1629px) {
+    .sage__profile {
+        width: 43vw;
+        height: 58.2vw;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .sage__profile {
+        width: 48.5vw;
+        height: 61.29vw;
+    }
+}
