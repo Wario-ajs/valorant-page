@@ -31,7 +31,7 @@
 }
 
 .sage__profile {
-    width: 47vw;
+    width: 53vw;
     height: 64.25vw;
     position: absolute;
     top: 0;
@@ -40,8 +40,8 @@
 
 @media screen and (max-width: 1024px) {
     .sage__profile {
-        width: 44vw;
-        height: 63vw;
+        width: 51vw;
+        height: 66.2vw;
     }
 }
 

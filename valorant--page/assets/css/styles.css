@@ -320,10 +320,14 @@ body {
         margin-bottom: 1rem;
         grid-template-columns: 54% 10% auto;
     }
+
+    .pagina__titulo {
+        grid-column: span 2 ;
+    }
     
     .agente__conteudo {
         width: 48vw;
-        height: 41.31vw;
+        height: 44.5vw;
         padding: 0.6rem;
         justify-self: end;
         margin-bottom: 2.5rem;
@@ -368,8 +372,8 @@ body {
 
     .agente__habilidades {
         background-color: var(--cor-secundaria);
-        width: 10vw;
-        height: 64.5vh;
+        width: 11vw;
+        height: 46.53vw;
     }
     
     .agente__habilidades--lista {

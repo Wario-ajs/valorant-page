@@ -47,10 +47,15 @@
 }
 
 @media screen and (max-width: 1024px) {
+    #phoenix__conteudo {
+        height: 44.4vw;
+    }
+
     .phoenix__profile {
         width: 44vw;
-        height: 63vw;
+        height: 69.3vw;
     }
+
 }
 
 @media screen and (min-width: 1629px) {
