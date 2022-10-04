@@ -1,6 +1,6 @@
 # valorant-page
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/valorant-page?style=flat-square) ![Lines of code](https://img.shields.io/tokei/lines/github.com/Wario-ajs/valorant-page?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Wario-ajs/valorant-page) ![GitHub contributors](https://img.shields.io/github/contributors/Wario-ajs/valorant-page)
+![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/valorant-page?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Wario-ajs/valorant-page) ![GitHub contributors](https://img.shields.io/github/contributors/Wario-ajs/valorant-page)
 
 Criação do projeto de web page dos agentes de valorant, utilizando HTML/CSS e JavaScript.
 
